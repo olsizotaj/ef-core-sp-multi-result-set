@@ -1,0 +1,3 @@
+﻿EntityFrameworkCore\Add-Migration 'Init1'  -Verbose -Context EfAppDbContext -OutputDir "DBLayer\ApplicationDb"
+
+EntityFrameworkCore\Update-Database -Verbose -Context EfAppDbContext
